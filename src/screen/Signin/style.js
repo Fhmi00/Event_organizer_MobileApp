@@ -14,6 +14,9 @@ const styles = StyleSheet.create({
     margin: 12,
     color: '#373A42',
   },
+  inputText: {
+    color: '#0d0d0d',
+  },
   frogotPassword: {textAlign: 'right', color: 'blue', margin: 12},
   textSign: {marginTop: 50, textAlign: 'center'},
   icon: {

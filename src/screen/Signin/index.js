@@ -75,11 +75,13 @@ export default function Signin(props) {
 
       <Input
         placeholder={'Input your email'}
+        style={styles.inputText}
         onChangeText={text => handleChangeForm(text, 'email')}
       />
       <Input
         secureTextEntry={true}
         placeholder={'Input Password'}
+        style={styles.inputText}
         onChangeText={text => handleChangeForm(text, 'password')}
       />
       <TouchableOpacity onPress={navigateForgotPassword}>
